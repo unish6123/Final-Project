@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    overflow: hidden;
+}
+
+ul > li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #fff !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.navbar{
+     /* background-color: rgb(20, 17, 17); */
+     display: flex;
+     padding: 10px 50px;
+     border-radius: 50px;
+     width: 65%;
+     margin: 15px auto 0;
+}
+
+.nav_container{
+    width: 100%
+}
+
+.nav_inner_cont>ul{
+    display: flex;
+    justify-content: center;
+}
+
+.nav_inner_cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.nav_links{
+    font-size: 1.1rem;
+    padding-top: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #000 !important;
+    margin-right: 20px;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+} 
+
+.nav_links:hover{
+    font-size: 1.15rem;
+    font-weight: 450;
+}
+.nav_logo{
+    height: 80px;
+    width: 150px;
+}
+#icon_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main-container{
+    height: 100%;
+    /* background: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-left: 50px;
+}
+
+.main-info{
+    margin: auto ;
+}
+
+.main-info .content-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-info .content-desc{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main-background-img{
+    /* height: 80%; */
+    max-width: 60%;
+    /* background: green; */
+}
+
+.main-background-img img{
+height: 90%;
+width: 100%;
+object-fit: cover;
+}
+
+
+
+.adopt-container, .report-container, .get-involved-container, .donate-container{
+    background: #f7f7f7;
+    height: 100vh;
+    position: absolute;
+    top: 90px;
+    left: 0px;
+    right: 0px;
+    transition: all 0.3s ease-in-out;
+    display: none;
+    padding: 50px 30px;
+    gap: 30px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+
+    
+#dogimg{
+    /* margin-top: 30px; */
+    border: solid 1px;
+    width: 220px;
+    height: 200px;
+}
+
+.show-container{
+    display: flex;
+}
+
+ #adopt-container{ 
+    overflow-y: scroll;
+    /* justify-content: flex-start; */
+} 
+
+.dog_container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+    gap:5px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    width: 30%;
+    max-height: 300px
+}
+
+.text1{
+    border: 2px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    background: linear-gradient(95deg, rgba(87, 87, 87, 0.919), rgba(49, 48, 48, 0.214));
+    color: #f7f7f7;
+}
+
+.text1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.text2{
+    position: relative;
+    margin-top: 0px;
+    border: 2px ;
+    background-color: gray;
+    width: 220px;
+    text-align: center;
+}
+/* #dog2img{
+    margin-top: 30px;
+    border: solid 1px;
+    width: 220px;
+    height: 200px;
+} */
+.text3{
+    position: relative;
+    margin-top: 0px;
+    border: 2px;
+    background-color: gray;
+    width: 220px;
+    text-align: center;
+}
+
+#donate-container{
+    justify-content: center;
+    background: #f7f7f7;
+    height: 100%;
+}
+
+.donate-container .payment-content, .report-content{
+    /* background: red; */
+    /* width: 100%; */
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(34, 31, 31, 0.245);
+}
+.donate-container .payment-content h2{
+    margin-bottom: 20px;
+}
+
+.donate-container .payment-content .amount-box{
+    /* background: green; */
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px #3c3c3ce1;
+    margin-bottom: 15px;
+}
+
+.amount-header{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    overflow: hidden;
+    font-size: 1.2rem
+}
+
+.amount-box .amount-display{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+.amount-box input{
+    border: none;
+    outline: none;
+    background: none;
+    padding: 5px 10px;
+    font-size: 1.2rem
+}
+
+.total-amount{
+    display: flex;
+}
+
+.d-name, .d-card-info, .donate-validity{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    gap: 15px;
+}
+.d-name, .d-card-info input{
+    width: 100%;
+}
+
+.donate-card label{
+    display: block;
+    margin-bottom: 6px;
+    font-size: 1.1rem;
+}
+
+.donate-card input, .donate-card select, #report-form input{
+    padding: 7px 13px;
+    font-size: 1.2rem;
+}
+
+.donate-card .donate-card-no{
+    flex-grow: 1;
+}
+
+.donate-card .donate-validity{
+    margin: 20px auto;
+}
+
+.donate-card #month{
+    margin-right: 5px;
+}
+
+.submit-btn{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.submit-btn button{
+    width: 100%;
+    border: none;
+    outline: none;
+    background: rgb(84, 182, 84);
+    color: #f7f7f7;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transform: all 0.2s ease-in-out;
+}
+.submit-btn button:hover{
+    background: rgba(84, 182, 84, 0.875);
+
+}
+
+#report-success, #donation-success{
+    font-size: 1.3rem;
+    background-color: rgb(84, 182, 84);
+    padding: 20px 30px;
+    color: #f7f7f7;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: none;
+}
+
+
+
+
+/* Report Section  */
+
+#report-container{
+    height: 100vh;
+    background: #f7f7f7;
+    justify-content: center;
+}
+
+.report-header h2{
+    margin-bottom: 15px;;
+}
+
+
+#report-form label{
+    display: block;
+    font-size: 1.1rem;
+    margin-bottom: 7px;
+}
+
+
+
+
+@media screen and (width < 890px){
+    .main-container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .main-info{
+        margin: 10px auto 30px;
+    }
+.main-background-img{
+    max-width: 100%;
+    /* display: block; */
+}   
+.donate-container .payment-content, .report-content{
+    /* background: red; */
+    width: 100%;
+}
+}

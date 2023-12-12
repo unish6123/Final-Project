@@ -1,0 +1,264 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="dog_res.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav_container">
+        <div class="nav_inner_cont">
+          <div class="nav_logo">
+            <img src="images/nav_new.jpg" alt="brand logo" id="icon_img" />
+          </div>
+          <ul>
+            <li class="nav_item" id="donate">
+              <a href="#" class="nav_links" id="get-involved-btn">
+                Get Involved</a
+              >
+            </li>
+            <li class="nav_item">
+              <a href="#" class="nav_links" id="adopt-btn">Adopt</a>
+            </li>
+            <li class="nav_item">
+              <a href="#" class="nav_links" id="report-btn"
+                >Report Misdemeanor</a
+              >
+            </li>
+            <li class="nav_item">
+              <a href="#" class="nav_links" id="donate-btn"> Donate</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="main-container" id="main-container">
+      <div class="main-info">
+        <div class="content-info">
+          <!-- <h1>Hello,</h1>
+                    <div class="content-desc">
+                        <span>This is a </span><span>Dog Rescue Area</span><span>Come on</span>
+                    </div> -->
+          <h1>this is what</h1>
+          <h2>this is what</h2>
+          <h3>this is what</h3>
+          <h4>this is what</h4>
+          <h5>this is what</h5>
+          <h6>this is what</h6>
+        </div>
+      </div>
+      <div class="main-background-img">
+        <img src="images/happy_dog.avif" alt="" class="maindog" id="picdiv" />
+      </div>
+    </div>
+
+    <div class="get-involved-container" id="get-involved-container">
+      <div class="get-involved-content">
+        <h2 class="get-involved-header">Get Involved</h2>
+        <div class="get-involved-form-box">
+          <form class="get-involved-form">
+            <div class="input-field">
+              <label for="fname"> First Name: </label>
+              <input type="text" name="fname" id="fname" />
+            </div>
+            <div class="input-field">
+              <label for="lname"> Last Name: </label>
+              <input type="text" name="lname" id="lname" />
+            </div>
+            <div class="input-field">
+              <label for="email"> Email: </label>
+              <input type="email" name="email" id="email" />
+            </div>
+            <div class="input-field">
+              <div class="address-input">
+                <div class="address-1">
+                  <label for="address-1"> Address: </label>
+                  <input type="text" name="address-1" id="address-1" />
+                </div>
+                <div class="address-2">
+                  <label for="state"> State: </label>
+                  <input type="text" name="state" id="state" />
+                </div>
+                <div class="country">
+                  <label for="country"> Country: </label>
+                  <input type="text" name="country" id="country" />
+                </div>
+                <div class="zip-code">
+                  <label for="zip-code"> Zip Code: </label>
+                  <input type="number" name="zip-code" id="zip-code" />
+                </div>
+              </div>
+            </div>
+            <div class="input-field">
+              <label for="contact-number"> Contact Number: </label>
+              <input type="number" name="contact-number" id="contact-number" />
+            </div>
+            <div class="submit-btn">
+              <button type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="adopt-container" id="adopt-container">
+      
+    </div>
+
+    <div class="report-container" id="report-container">
+      <div class="report-content">
+      <div id="report-success">Thank you for reporting the case. People like you change the world for better. :)</div>
+        <div class="report-header">
+          <h2>Report</h2>
+        </div>
+        <form id="report-form" method="post">
+          <div class="severity">
+            <label for="severity-level">Severity</label>
+            <input
+              type="range"
+              name="severity-level"
+              id="sevirity-level"
+              max="10"
+              min="1"
+            />
+          </div>
+          <div class="location">
+            <label for="address">Locations</label>
+            <input
+              type="text"
+              name="address_1"
+              id="address_1"
+              placeholder="Address 1"
+            />
+            <input
+              type="text"
+              name="address_2"
+              id="address_2"
+              placeholder="Address 2"
+            />
+            <input
+              type="number"
+              name="zip_code"
+              id="zip_code"
+              placeholder="Zip Code"
+            />
+          </div>
+          <div class="submit-btn">
+            <button type="submit" id="severity-submit-btn">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="donate-container" id="donate-container">
+      <div class="payment-content">
+      <div id="donation-success">Your donation was recieved. Thank you for making this world a beautiful place!</div>
+        <h2>Payment Overview</h2>
+        <form method="post" id="donate-form">
+          <div class="amount-box">
+            <div class="amount-display">Amount</div>
+            <div class="amount-header">
+              <span class="currency-symbol">$</span>
+              <div class="total-amount">
+                <input
+                  type="number"
+                  placeholder="0.00"
+                  name="total-amt"
+                  id="total-amt"
+                  required
+                />
+              </div>
+            </div>
+          </div>
+          <div class="donate-card">
+            <div class="d-name">
+              <div class="donate-fname">
+                <label for="d-fname"> First Name </label>
+                <input
+                  type="text"
+                  id="d-fname"
+                  name="d-fname"
+                  placeholder="John"
+                  required
+                />
+              </div>
+              <div class="donate-lname">
+                <label for="d-lname"> Last Name </label>
+                <input
+                  type="text"
+                  id="d-lname"
+                  name="d-lname"
+                  placeholder="Doe"
+                  required
+                />
+              </div>
+            </div>
+            <div class="d-card-info">
+              <div class="donate-card-no">
+                <label for="d-card-no"> Card Number </label>
+                <input
+                  type="number"
+                  id="d-card-no"
+                  name="d-card-no"
+                  placeholder="123 456 7890"
+                  required
+                />
+              </div>
+              <div class="donate-cvv">
+                <label for="d-cvv"> CVV</label>
+                <input
+                  type="number"
+                  id="d-cvv"
+                  name="d-cvv"
+                  min="100"
+                  max="999"
+                  placeholder="123"
+                  required
+                />
+              </div>
+            </div>
+            <div class="donate-validity">
+              <label for="d-validity"> Valid Until </label>
+              <div class="validity-time">
+                <select id="month" name="month" required>
+                  <option value="1">January</option>
+                  <option value="2">February</option>
+                  <option value="3">March</option>
+                  <option value="4">April</option>
+                  <option value="5">May</option>
+                  <option value="6">June</option>
+                  <option value="7">July</option>
+                  <option value="8">August</option>
+                  <option value="9">September</option>
+                  <option value="10">October</option>
+                  <option value="11">November</option>
+                  <option value="12">December</option>
+                </select>
+                <select id="year" name="year" required>
+                  <option value="2024">2024</option>
+                  <option value="2025">2025</option>
+                  <option value="2026">2026</option>
+                  <option value="2027">2027</option>
+                  <option value="2028">2028</option>
+                  <option value="2029">2029</option>
+                  <option value="2030">2030</option>
+                  <option value="2031">2031</option>
+                  <option value="2032">2032</option>
+                  <option value="2033">2033</option>
+                  <option value="2034">2034</option>
+                  <option value="2035">2035</option>
+                </select>
+              </div>
+            </div>
+            <div class="submit-btn">
+              <button type="submit">Donate</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+  <script src="/dog_res/dog_res.js"></script>
+</html>
