@@ -352,10 +352,14 @@ object-fit: cover;
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
+        padding-top: 200px;
     }
     .main-info{
         margin: 10px auto 30px;
     }
+    .adopt-container, .report-container, .get-involved-container, .donate-container{
+
+padding-top: 200px}
 .main-background-img{
     max-width: 100%;
     /* display: block; */
