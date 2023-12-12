@@ -31,8 +31,10 @@ input::-webkit-inner-spin-button {
      display: flex;
      padding: 10px 50px;
      border-radius: 50px;
-     width: 65%;
+     width: 100%;
      margin: 15px auto 0;
+     position: fixed;
+     z-index: 111111;
 }
 
 .nav_container{
@@ -77,12 +79,12 @@ input::-webkit-inner-spin-button {
 }
 
 .main-container{
-    height: 100%;
-    /* background: red; */
+    height: 100vh;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     padding-left: 50px;
+    padding-top: 80px
 }
 
 .main-info{
@@ -116,14 +118,15 @@ object-fit: cover;
 
 .adopt-container, .report-container, .get-involved-container, .donate-container{
     background: #f7f7f7;
-    height: 100vh;
+    height: 90vh;
     position: absolute;
-    top: 90px;
+    bottom: 0;
     left: 0px;
     right: 0px;
     transition: all 0.3s ease-in-out;
     display: none;
-    padding: 50px 30px;
+    padding: 100px 30px;
+    padding-bottom: 0;
     gap: 30px;
     justify-content: space-around;
     flex-wrap: wrap;
