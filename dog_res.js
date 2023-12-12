@@ -75,6 +75,15 @@ reportForm.addEventListener("submit", (e)=>{
     }, 3000);
 })
 
+let getInvolvedForm = document.getElementById("get-involved-form")
+getInvolvedForm.addEventListener("submit", (e)=>{
+    e.preventDefault();
+    getInvolvedForm.reset();
+    reportSuccess.style.display= "flex";
+    setTimeout(() => {
+        reportSuccess.style.display= "none";
+    }, 3000);
+})
 
 
 async function fetchBreedImg(breedName){

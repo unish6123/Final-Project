@@ -276,6 +276,7 @@ object-fit: cover;
 .donate-card input, .donate-card select, #report-form input{
     padding: 7px 13px;
     font-size: 1.2rem;
+    margin-bottom: 5px;
 }
 
 .donate-card .donate-card-no{
@@ -355,6 +356,9 @@ object-fit: cover;
     .main-info{
         margin: 10px auto 30px;
     }
+.adopt-container, .report-container, .get-involved-container, .donate-container{
+
+padding-top: 200px}
 .main-background-img{
     max-width: 100%;
     /* display: block; */
