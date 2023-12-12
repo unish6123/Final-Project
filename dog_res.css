@@ -312,7 +312,7 @@ object-fit: cover;
 
 }
 
-#report-success, #donation-success{
+#report-success, #donation-success, #involve-success{
     font-size: 1.3rem;
     background-color: rgb(84, 182, 84);
     padding: 20px 30px;

@@ -56,6 +56,7 @@ donateBtn.addEventListener('click', ()=>{
 let donateForm = document.getElementById("donate-form")
 let reportForm = document.getElementById("report-form")
 let reportSuccess = document.getElementById("report-success")
+let involveSuccess = document.getElementById("involve-success")
 let donationSuccess = document.getElementById("donation-success")
 donateForm.addEventListener("submit", (e)=>{
     e.preventDefault();
@@ -79,9 +80,9 @@ let getInvolvedForm = document.getElementById("get-involved-form")
 getInvolvedForm.addEventListener("submit", (e)=>{
     e.preventDefault();
     getInvolvedForm.reset();
-    reportSuccess.style.display= "flex";
+    involveSuccess.style.display= "flex";
     setTimeout(() => {
-        reportSuccess.style.display= "none";
+        involveSuccess.style.display= "none";
     }, 3000);
 })
 
