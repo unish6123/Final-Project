@@ -162,6 +162,7 @@ object-fit: cover;
     cursor: pointer;
     width: 30%;
     max-height: 300px
+    flex: 1 0 300px;
 }
 
 .text1{
