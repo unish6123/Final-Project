@@ -54,10 +54,9 @@ input::-webkit-inner-spin-button {
 }
 
 .nav_links{
-    font-size: 1.1rem;
+    font-size: 1rem;
     padding-top: 2px;
     padding-left: 10px;
-    padding-right: 10px;
     color: #000 !important;
     margin-right: 20px;
     text-transform: uppercase;
@@ -161,7 +160,8 @@ object-fit: cover;
     position: relative;
     cursor: pointer;
     width: 30%;
-    max-height: 300px
+    max-height: 300px;
+    flex: 1 0 300px;
 }
 
 .text1{
@@ -352,13 +352,14 @@ object-fit: cover;
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
+        padding-top: 200px;
     }
     .main-info{
         margin: 10px auto 30px;
     }
 .adopt-container, .report-container, .get-involved-container, .donate-container{
 
-padding-top: 200px}
+padding-top: 200px;}
 .main-background-img{
     max-width: 100%;
     /* display: block; */
