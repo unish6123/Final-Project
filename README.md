@@ -19,11 +19,11 @@ I have used a Javascript, CSS, and HTML to achieve this. In future I would encap
 
 ## Glimpse]
 <p>
-    <img src="/dog/dog_re1" alt="Home page" />
-    <img src="/dog/dog_re2" alt="Volunteer" />
-    <img src="/dog/dog_re3" alt="Adopt" />
-    <img src="/dog/dog_re4" alt="report abuse" />
-    <img src="/dog/dog_re5" alt="donate" />
+    <img src="/dog/dog_re1.png" alt="Home page" />
+    <img src="/dog/dog_re2.png" alt="Volunteer" />
+    <img src="/dog/dog_re3.png" alt="Adopt" />
+    <img src="/dog/dog_re4.png" alt="report abuse" />
+    <img src="/dog/dog_re5.png" alt="donate" />
 </p>
 
 ## How to Run
