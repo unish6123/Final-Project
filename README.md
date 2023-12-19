@@ -3,6 +3,7 @@
 ## Table of Content 
 - [General Info](#general-info)
 - [Technology Used](#technologies)
+- [Glimpse](#glimpse)
 - [How to run](#how-to-run)
 
 
@@ -15,6 +16,15 @@ I'm making a place where people can adopt dogs, so everyone can be part of makin
 
 ## Technologies Used
 I have used a Javascript, CSS, and HTML to achieve this. In future I would encapsulate Database to store the data.
+
+## Glimpse]
+<p>
+    <img src="documentations/imgs/kinmel-home.png" alt="Home page" />
+    <img src="documentations/imgs/kinmel-products.png" alt="Volunteer" />
+    <img src="documentations/imgs/kinmel-filter.png" alt="Adopt" />
+    <img src="documentations/imgs/kinmel-product-details.png" alt="report abuse" />
+    <img src="documentations/imgs/kinmel-about.png" alt="donate" />
+</p>
 
 ## How to Run
 ### Live Demo
